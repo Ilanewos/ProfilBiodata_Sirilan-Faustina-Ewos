@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(24, 59, 124);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    width: 500px;
+    height: 500px; 
+    border: 1px solid #ddd;
+    padding: 2px 70px 2px 20px;
+    margin: 20px auto;
+    box-shadow:0 0 5px #aaa;
+    
+}
+
+.biodata {
+    background-color: white;
+}
+
+#biodata1 {
+    background-color: darkorange;
+    color: black;
+    display: inline-block;
+    padding: 2px 70px 2px 20px;
+    margin-left: -20px;
+    margin-top: 35px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 20px auto;
+    border: 10px;
+}
+
+b {
+    text-align: center;
+}
+
+a[href^="https://"] {
+    color: burlywood;
+}
+
+
+h2::before {
+    content: "➤ ";
+}
+
+
+footer {
+    background-color: rgb(24, 59, 124);
+    color: white;
+    padding: 10px;
+    padding-right: 50px;
+    text-align: center;
+}
